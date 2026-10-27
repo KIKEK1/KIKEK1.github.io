@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Володька FM</title>
+<meta name="description" content="Какие данные использует Володька FM и где они хранятся">
+<style>
+:root{--bg:#0f0f10;--panel:#18181a;--text:#f2f2f2;--muted:#a7a7ad;--line:#2a2a2e;--accent:#fed42b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 20px 64px}
+h1,h2,.brand{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;letter-spacing:-.02em}
+h1{font-size:30px;line-height:1.25;margin:0 0 8px}
+h2{font-size:19px;margin:34px 0 8px}
+p,li{color:#dcdcde}
+.muted{color:var(--muted);font-size:14px}
+a{color:var(--accent);text-underline-offset:3px}
+.brand{display:flex;align-items:center;gap:14px;font-size:22px;font-weight:800;margin-bottom:28px;color:var(--text);text-decoration:none}
+.mark{display:grid;place-items:center;width:52px;height:52px;border-radius:14px;background:var(--accent);color:#111;font-size:28px;font-weight:800}
+.brand b{color:var(--accent)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:18px 0}
+ul{padding-left:20px}
+hr{border:0;border-top:1px solid var(--line);margin:40px 0 18px}
+.lang{display:flex;gap:10px;font-size:14px;margin-bottom:6px}
+@media (max-width:480px){h1{font-size:25px}main{padding-top:32px}}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+<a class="brand" href="./"><span class="mark" aria-hidden="true">В</span>Володька <b>FM</b></a>
+<h1>Политика конфиденциальности</h1>
+<p class="muted">Последнее изменение: 27 октября 2026 года</p>
+<p>Володька FM — личный музыкальный плеер для Windows и Android (некоммерческий учебный проект). У приложения нет своих серверов: всё хранится на твоём устройстве и, если ты включишь синхронизацию, в твоём Google Диске.</p>
+
+<h2>Какие данные Google использует приложение</h2>
+<ul>
+<li><b>Адрес почты аккаунта</b> (<code>openid</code>, <code>email</code>) — только чтобы показать в настройках, какой аккаунт подключён.</li>
+<li><b>Google Диск, только свои файлы</b> (<code>drive.file</code>) — приложение создаёт в твоём Диске папку «Володька FM» и файл <code>volodka-sync.json</code> с лайками, плейлистами и подгонкой текста песен. Другие файлы Диска приложению недоступны.</li>
+</ul>
+
+<h2>Где хранятся данные</h2>
+<ul>
+<li>Ключ входа Google хранится только на твоём устройстве, в папке приложения.</li>
+<li>Файл синхронизации лежит в твоём Google Диске и принадлежит тебе.</li>
+<li>Данные никуда не отправляются, не продаются и не передаются третьим лицам. Приложение не показывает рекламу и не собирает статистику.</li>
+</ul>
+
+<h2>Как отключить и удалить</h2>
+<ul>
+<li>Выйти из Google в приложении: Настройки → Аккаунты → Синхронизация через Google.</li>
+<li>Отозвать доступ: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+<li>Удалить данные синхронизации: удали папку «Володька FM» в своём Google Диске.</li>
+</ul>
+
+<h2>Ограниченное использование</h2>
+<p>Использование и передача приложением Володька FM информации, полученной через API Google, соответствуют <a href="https://developers.google.com/terms/api-services-user-data-policy">Правилам использования данных пользователей в сервисах Google API</a>, включая требования об ограниченном использовании (Limited Use).</p>
+
+<h2>Связь</h2>
+<p>Вопросы по этой политике — через раздел Issues этого репозитория на GitHub.</p>
+
+<hr>
+<p class="lang"><b>English</b></p>
+<h2 style="margin-top:8px">Privacy Policy (summary)</h2>
+<p>Volodka FM is a personal, non-commercial music player for Windows and Android. It has no servers of its own.</p>
+<ul>
+<li><b>Google user data accessed:</b> the account email (<code>openid</code>, <code>email</code>) to show which account is connected, and Google Drive files created by the app itself (<code>drive.file</code>): a folder “Володька FM” with a file <code>volodka-sync.json</code> containing likes, playlists and lyric timing adjustments. The app cannot see any other Drive files.</li>
+<li><b>Storage:</b> the Google sign-in token is stored only on the user's device. The sync file stays in the user's own Google Drive.</li>
+<li><b>Sharing:</b> no data is sold, shared with third parties, used for advertising or analytics.</li>
+<li><b>Revoking and deletion:</b> sign out in Settings → Accounts, revoke access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, and delete the “Володька FM” folder from Google Drive.</li>
+<li>Volodka FM's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+</ul>
+</main>
+</body>
+</html>
